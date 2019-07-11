@@ -1,15 +1,24 @@
 html {
   height: 100%;
-  background-image: linear-gradient(to bottom right, #57adf1, #788866);
-
+  /* background-image: linear-gradient(to bottom right, #57adf1, #788866); */
+  background-color:#101A40;
 }
 
 body {
   max-width: 600px;
   margin: auto;
-  height: 100%;
+  height: 98%;
 }
 
-* {
-  font-family: 'Indie Flower', cursive;
+*, body {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+main {
+  margin: 0 auto;
+  }
+
+a {
+  text-decoration: none;
 }

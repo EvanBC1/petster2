@@ -1,7 +1,32 @@
 <%- include('../layout/head') %>
-<h1>This is details.ejs!</h1>
+
 <%- include('../layout/nav') %>
 
+<!-- <h1>Details</h1> -->
+<div id="pet-details">
+<img id="feature"></img>
 
-<!-- <h4>Name: <%= petResultAPI.name %></h4>
-<h4>Description: <%= petResultAPI.description %></h4> -->
+
+
+
+<div class="view-details"></div>
+  <img id="details-pet-image" src="<%= petDetailsResponse.photo %>">
+  <h4 id="petName" class="view-name"><%= petDetailsResponse.name %></h4>
+  <p class="petDescription">Age</p>
+  <h4 class="view-name">  <%= petDetailsResponse.age %></h4>
+  <p class="petDescription">Gender</p>
+  <h4 class="view-name"> <%= petDetailsResponse.gender %></h4>
+  <p class="petDescription">Breed</p>
+  <h4 class="view-name"> <%= petDetailsResponse.primaryBreed %></h4>
+  <p class="petDescription">Location</p>
+  <h4 class="view-name"> <%= petDetailsResponse.city %>, <%= petDetailsResponse.state %></h4>
+  <p class="petDescription">Description</p>
+  <h4 class="view-description"><%= petDetailsResponse.description %></h4>
+</div>
+<div id="fav-pet-info">
+    <a class="adopt-me-button" href="<%= petDetailsResponse.url %>">Adopt Me!</a>
+</div>
+
+
+
+</div>

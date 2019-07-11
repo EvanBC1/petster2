@@ -1,70 +1,68 @@
-main {
-margin: 0 auto;
-}
-
-
 h1 {
   font-family: 'Lobster', cursive;
-  margin-top: 20px;
+  margin-top: 8%;
+  margin-bottom: 10%;
   text-align: center;
-  font-size: 2em;
+  font-size: 4em;
   color: white;
 }
 
 h2 {
-  margin-top: 40px;
+  margin-top: 25%;
+  margin: 0 auto;
+  width: 77%;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  line-height: 1.3em;
   color: white;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
 h3 {
-  margin-top: 40px;
+  margin-top: 4%;
   text-align: center;
   font-size: 1.2em;
   color: white;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
-
-/* Nav Bar */
-nav{
-  margin-top: 2%;
-  margin-bottom: 2%;
+h4 {
+  line-height: 1.4em;
+  font-size: 1.3em;
   text-align: center;
 }
 
-ul {
+h5 {
+  line-height: 1.4em;
+  font-size: 1em;
+  text-align: center;
+}
+
+/* Nav Bar */
+nav {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 1.4em
+}
+
+.navUl {
+
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
   justify-content: center;
 }
 
-li {
-  margin-left:1em;
+.navLi {
+  /* margin-left:1em; */
 }
 
-/* Inputs */
-input {
-  width: 300px;
-  height: 30px;
-  margin-left: 150px;
-}
-
-/* Button */
-#submit {
- background-color: #05de29;
+.navA {
+  margin-left: 0.5em;
+  font-size: 0.8em;
   color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  width: 200px; 
-  margin-left:200px;
-  margin-top: 40px;
+  text-decoration: none;
+}
+
+.favoritePet {
+  text-align: center;
 }
